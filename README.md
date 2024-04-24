@@ -1,5 +1,9 @@
 # tf-docker-template
-Kickstart your Tensorflow docker environment with this example
+Kickstart your Tensorflow docker environment with this example. The setup uses the tensorflow base image. [See more about integrating Tensorflow with Docker here](https://www.tensorflow.org/install/docker).
+
+# Docker Prerequisites
+
+[Install Docker](https://docs.docker.com/engine/install/) and follow these [important post-installation steps](https://docs.docker.com/engine/install/linux-postinstall/)
 
 # NVIDIA Prerequisites
 
