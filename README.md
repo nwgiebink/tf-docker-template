@@ -9,6 +9,14 @@ Kickstart your Tensorflow docker environment with this example. The setup uses t
 
 Check if a gpu is available on your device: `lspci | grep -i nvidia`
 
+# Other Prerequisites
+
+Make sure `make` is installed. 
+
+```
+sudo apt install make
+```
+
 ## NVIDIA Drivers
 The following example applies to an Ubuntu machine. Skip this step if NVIDIA drivers are already set up on your machine. 
 
