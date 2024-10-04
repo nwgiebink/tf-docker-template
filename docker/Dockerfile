@@ -8,7 +8,10 @@ RUN apt-get update && apt-get install -y \
     python3-pip
 
 RUN pip install \
-    geopandas \
-    rasterio 
+    rasterio \
+    matplotlib \
+    numpy \
+    pandas \
+    geopandas 
 
 CMD /bin/bash
