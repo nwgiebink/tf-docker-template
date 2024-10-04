@@ -50,7 +50,11 @@ curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dear
 
 2. Update packages and install
 ```
-sudo apt-get update && apt-get install  -y nvidia-container-toolkit
+sudo apt-get update
+```
+
+```
+sudo apt-get install -y nvidia-container-toolkit
 ```
 
 3. Reboot 
